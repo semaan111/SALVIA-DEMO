@@ -81,12 +81,7 @@
         <p id="widget-loading" class="widget-loading" role="status">Preparando la conversación…</p>
         <!-- Change agent-id to connect an agent configured for your company.
              Branding does not change the agent's voice, knowledge, or system prompt. -->
-        <elevenlabs-convai id="luma-voice"
-          agent-id="agent_1301m33f9faee5ntsj3akmyfyzdq"
-          variant="full" placement="bottom" dismissible="false"
-          show-avatar-when-collapsed="true"
-          text-contents='{"main_label":"Conversa con Luma","start_call":"Iniciar conversación","end_call":"Terminar conversación","expand":"Abrir conversación","collapse":"Cerrar conversación","listening_status":"Te escucho…","speaking_status":"Hablando…","connecting_status":"Conectando…","accept_terms":"Aceptar","dismiss_terms":"Cancelar","start_chat":"Escribir","input_placeholder":"Escribe tu mensaje…"}'
-        ></elevenlabs-convai>
+        <elevenlabs-convai id="luma-voice" agent-id="agent_1301m33f9faee5ntsj3akmyfyzdq" variant="full" placement="bottom" dismissible="false" show-avatar-when-collapsed="true" text-contents='{ "main_label":"Conversa con Luma", "start_call":"Iniciar conversación", "end_call":"Terminar conversación", "expand":"Abrir conversación", "collapse":"Cerrar conversación", "listening_status":"Te escucho…", "speaking_status":"Hablando…", "connecting_status":"Conectando…", "accept_terms":"Aceptar", "dismiss_terms":"Cancelar" }' ></elevenlabs-convai>
         <div id="widget-error" class="widget-error" role="status" hidden><p>No pudimos cargar la conversación. Revisa tu conexión e inténtalo de nuevo.</p><button type="button" onclick="location.reload()">Volver a intentar</button></div>
         <p id="voice-hint" class="voice-hint" role="status">Presiona el personaje de Luma y permite el micrófono para conversar.</p>
       </section>
